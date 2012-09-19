@@ -50,6 +50,9 @@ group :production, :integration do
 end
 
 group :development, :test do
+  gem 'capistrano', '2.13.3'
+  gem 'capistrano_colors', '0.5.5'
+  gem 'rvm-capistrano', '1.2.7'
   gem 'sqlite3'
   gem 'unicorn-rails'
   gem 'debugger'
