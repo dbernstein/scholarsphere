@@ -34,6 +34,7 @@ Install system dependencies
 
  * libmysqlclient-dev (if running MySQL as RDBMS)
  * libsqlite3-dev (if running SQLite as RDBMS)
+ * libpq-dev (if running Postgres as RDBMS)
  * libmagick-dev (or libmagickcore-dev on Ubuntu 12.10)
  * libmagickwand-dev
  * clamav

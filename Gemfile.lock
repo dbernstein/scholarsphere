@@ -260,6 +260,7 @@ GEM
       daemon_controller (>= 1.1.0)
       rack
       rake (>= 0.8.1)
+    pg (0.15.1)
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -433,6 +434,7 @@ DEPENDENCIES
   nest (= 1.1.1)
   paperclip (= 3.3.0)
   passenger (= 4.0.0.rc6)
+  pg
   rack (= 1.4.5)
   rails (= 3.2.13)
   rails_autolink (= 1.0.9)
