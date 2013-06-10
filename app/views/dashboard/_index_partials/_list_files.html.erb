@@ -66,6 +66,14 @@ limitations under the License.
           Users: <%= document.edit_people.join(', ') %>
         </td>
       </tr>
+      <tr>
+        <td colspan="2"><strong>Collections: </strong>
+          <% if document.collection.present? %>
+              <%= document.collection.join(', ') %>
+              <br />
+          <% end %>
+        </td>
+      </tr>
     </table>
   </td>
 </tr>

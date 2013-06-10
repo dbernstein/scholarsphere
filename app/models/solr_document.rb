@@ -9,4 +9,9 @@ class SolrDocument
   def hydra_model
     Array(self[Solrizer.solr_name('active_fedora_model', Solrizer::Descriptor.new(:string, :stored, :indexed))]).first
   end
+
+  def collection
+    Array(self[ Solrizer.solr_name("collection")])
+  end
+
 end
